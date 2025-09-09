@@ -22,15 +22,3 @@ tauri = { version = "2", features = [] }
 tauri-plugin-opener = "2"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-
-[target.x86_64-linux-android]
-linker = "C:/Users/64261/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/bin/x86_64-linux-android29-clang.cmd"
-
-[target.aarch64-linux-android]
-linker = "C:/Users/64261/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/bin/aarch64-linux-android29-clang.cmd"
-
-[target.armv7-linux-androideabi]
-linker = "C:/Users/64261/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/bin/armv7a-linux-androideabi29-clang.cmd"
-
-[target.i686-linux-android]
-linker = "C:/Users/64261/AppData/Local/Android/Sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/windows-x86_64/bin/i686-linux-android29-clang.cmd"
