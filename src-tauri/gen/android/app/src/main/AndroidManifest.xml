@@ -8,17 +8,14 @@
     <application
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/Theme.mea_app"
+        android:theme="@style/Theme.my_app"
         android:usesCleartextTraffic="${usesCleartextTraffic}">
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode"
             android:launchMode="singleTask"
             android:label="@string/main_activity_title"
             android:name=".MainActivity"
-            android:exported="true"
-            android:resizeableActivity="true"
-            android:screenOrientation="unspecified"
-            android:windowLayoutInDisplayCutoutMode="always">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -26,9 +23,6 @@
                 <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
             </intent-filter>
         </activity>
-    <!-- Enable notch and aspect ratio support for safe area insets -->
-    <meta-data android:name="android.max_aspect" android:value="2.1" />
-    <meta-data android:name="android.notch_support" android:value="true" />
 
         <provider
           android:name="androidx.core.content.FileProvider"
