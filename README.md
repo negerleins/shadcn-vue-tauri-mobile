@@ -6,7 +6,6 @@
 | shadcn-vue | https://www.shadcn-vue.com/ |
 | Tauri | https://tauri.app/start/ |
 | Vue 3 | https://vuejs.org/ |
-| Embla Carousel | https://www.embla-carousel.com/ |
 | vue-sonner | https://sonner.emilkowal.ski/vue |
 
 ## Features
