@@ -198,6 +198,77 @@
   --sidebar-ring: #34d399;
 }
 
+[data-theme="twitter"] {
+  --background: #000000;
+  --foreground: #e7e9ea;
+  --card: #17181c;
+  --card-foreground: #d9d9d9;
+  --popover: #000000;
+  --popover-foreground: #e7e9ea;
+  --primary: #1c9cf0;
+  --primary-foreground: #ffffff;
+  --secondary: #f0f3f4;
+  --secondary-foreground: #0f1419;
+  --muted: #181818;
+  --muted-foreground: #72767a;
+  --accent: #061622;
+  --accent-foreground: #1c9cf0;
+  --destructive: #f4212e;
+  --destructive-foreground: #ffffff;
+  --border: #242628;
+  --input: #22303c;
+  --ring: #1da1f2;
+  --chart-1: #1e9df1;
+  --chart-2: #00b87a;
+  --chart-3: #f7b928;
+  --chart-4: #17bf63;
+  --chart-5: #e0245e;
+  --sidebar: #17181c;
+  --sidebar-foreground: #d9d9d9;
+  --sidebar-primary: #1da1f2;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #061622;
+  --sidebar-accent-foreground: #1c9cf0;
+  --sidebar-border: #38444d;
+  --sidebar-ring: #1da1f2;
+}
+
+[data-theme="red"] {
+  --background: #221d27;
+  --foreground: #d2c4de;
+  --card: #2c2632;
+  --card-foreground: #dbc5d2;
+  --popover: #100a0e;
+  --popover-foreground: #f8f1f5;
+  --primary: #ff3333;
+  --primary-foreground: #ffcece;
+  --secondary: #362d3d;
+  --secondary-foreground: #d4c7e1;
+  --muted: #28222d;
+  --muted-foreground: #c2b6cf;
+  --accent: #ea4a4a;
+  --accent-foreground: #f8f1f5;
+  --destructive: #b83d4f;
+  --destructive-foreground: #ffffff;
+  --border: #3b3237;
+  --input: #3e343c;
+  --ring: #ec7777;
+  --chart-1: #bd2f2f;
+  --chart-2: #934dcb;
+  --chart-3: #e88c30;
+  --chart-4: #af57db;
+  --chart-5: #ff1a1a;
+  --sidebar: #181117;
+  --sidebar-foreground: #e0cad6;
+  --sidebar-primary: #1d4ed8;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #261922;
+  --sidebar-accent-foreground: #f4f4f5;
+  --sidebar-border: #000000;
+  --sidebar-ring: #ce3733;
+}
+
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

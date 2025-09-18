@@ -1,11 +1,10 @@
 // import { ref } from "vue";
-import { useColorMode, type UseColorModeReturn } from "@vueuse/core";
+import { useColorMode } from "@vueuse/core";
+import type { Ref } from "vue";
 
-type themes = UseColorModeReturn<"light" | "dark" | "cosmic" | "breeze">;
-
-export const themeMode: themes = useColorMode({
+export const themeMode = useColorMode({
   selector: "html",
   attribute: "data-theme",
   storageKey: "vueuse-color-scheme",
   emitAuto: false,
-});
+}) as unknown as Ref<string>;

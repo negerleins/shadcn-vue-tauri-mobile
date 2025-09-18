@@ -1,4 +1,4 @@
-import Manager from './manager.ts'
+import Manager from '@/manager.ts'
 import App from '@/app/App.vue'
 
 const Application = new Manager(App, [

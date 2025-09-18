@@ -19,7 +19,7 @@ import { themeMode } from "@/lib/shared.ts";
 </script>
 
 <template>
-  <div class="h-full" style="-webkit-app-region: no-drag">
+  <div class="h-full">
     <TooltipProvider>
       <Tooltip>
         <DropdownMenu>
@@ -45,6 +45,8 @@ import { themeMode } from "@/lib/shared.ts";
             <DropdownMenuItem @click="themeMode = 'dark'"> Dark </DropdownMenuItem>
             <DropdownMenuItem @click="themeMode = 'cosmic'"> Cosmic </DropdownMenuItem>
             <DropdownMenuItem @click="themeMode = 'breeze'"> Breeze </DropdownMenuItem>
+            <DropdownMenuItem @click="themeMode = 'twitter'"> Twitter </DropdownMenuItem>
+            <DropdownMenuItem @click="themeMode = 'red'"> Red </DropdownMenuItem>
             <DropdownMenuItem @click="themeMode = 'auto'"> System </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

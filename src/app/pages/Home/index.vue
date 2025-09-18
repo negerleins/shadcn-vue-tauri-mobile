@@ -3,8 +3,8 @@ import { page } from './shared';
 </script>
 
 <template>
-  <div class="flex flex-1 flex-col h-full overflow-x-auto overflow-y-auto overflow-hidden min-h-0 rounded-lg">
-    <div class=" overflow-hidden w-full h-full">
+  <div class="parent">
+    <div class="inner-div">
       <Transition name="fade-slide" mode="out-in">
         <component v-if="page" :is="page.component" :key="page.name" />
       </Transition>
@@ -13,9 +13,27 @@ import { page } from './shared';
 </template>
 
 <style scoped>
+.parent {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+  overflow: hidden;
+  min-height: 0;
+  border-radius: 0.5rem;
+}
+
+.parent .inner-div {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
 .fade-slide-enter-active,
 .fade-slide-leave-active {
-  transition: opacity 0.45s ease, transform 0.225s ease;
+  transition: opacity 0.4s ease, transform 0.6s ease;
 }
 
 .fade-slide-enter-from,
