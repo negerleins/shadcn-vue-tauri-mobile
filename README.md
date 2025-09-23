@@ -6,7 +6,6 @@
 | shadcn-vue | https://www.shadcn-vue.com/ |
 | Tauri | https://tauri.app/start/ |
 | Vue 3 | https://vuejs.org/ |
-| vue-sonner | https://sonner.emilkowal.ski/vue |
 
 ## Features
 - Vue 3 + TypeScript + Vite
