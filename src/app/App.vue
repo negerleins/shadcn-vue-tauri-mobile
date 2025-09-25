@@ -15,9 +15,7 @@ useColorMode();
   <UseScreenSafeArea>
     <div id="app">
       <div class="view">
-        <ClientOnly>
-          <Toaster />
-        </ClientOnly>
+        <Toaster />
         
         <div class="router-div">
           <RouterView class="router-view" />
